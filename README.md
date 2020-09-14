@@ -75,6 +75,10 @@ python3 manage.py runserver
 
 the backend is now running on http://127.0.0.1:8000 ! 
 
+<h3>Frontend</h3>
+
+Follow the instruction provided in the frontend folder
+
 <h1>Using Docker</h1>
 
     docker-compose build
@@ -91,10 +95,6 @@ If you want to run a one-off command, like installing dependencies, you can use 
 For example, to install a Javascript dependency and save that information to package.json we could run: docker-compose run --rm frontend yarn install --save axios
 
 If you want to be on a shell for one of the Docker services, you can do something like: docker-compose run --rm frontend bash
-
-<h3>Frontend</h3>
-
-Follow the instruction provided in the frontend folder
 
 <h1>Credits</h1>
 
