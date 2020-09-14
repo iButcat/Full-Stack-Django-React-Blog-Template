@@ -1,0 +1,27 @@
+  version: '3'
+
+  services:
+    db:
+      image: 'postgres'
+      ports:
+        - '5432'
+      environment:
+        - POSTGRES_DB=postgres
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=postgres
+    django:
+      build: ./blog_backend/web_blog
+      command: python manage.py runserver 0.0.0.0:8000
+      volumes:
+        - .:/code
+      ports:
+        - "8000:8000"
+      depends_on:
+        - db
+      links:
+        - db:db
+    frontend:
+      build: ./frontend
+      command: ["yarn", "start"]
+      ports:
+        - "3000"
