@@ -77,7 +77,27 @@ the backend is now running on http://127.0.0.1:8000 !
 
 <h3>Frontend</h3>
 
-Follow the instruction provided in the frontend folder
+Install node modules:
+```
+yarn install 
+or
+npm install
+```
+
+Run frontend:
+```
+yarn start
+or
+npm start
+```
+
+Production build: 
+
+```
+yarn build
+or
+npm build
+```
 
 <h1>Using Docker</h1>
 
