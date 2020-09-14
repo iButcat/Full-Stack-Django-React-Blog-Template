@@ -2,7 +2,7 @@
 
 <h1>App Diagram</h1>
 
-![Diagram](https://github.com/iButcat/Full-Stack-Django-React-Blog-Template/blob/master/blog-app.drawio)
+![Diagram](https://github.com/iButcat/Full-Stack-Django-React-Blog-Template/blob/master/blog-app.png)
 
 <h1>Installation</h1>
 
