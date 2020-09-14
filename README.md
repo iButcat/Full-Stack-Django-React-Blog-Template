@@ -11,6 +11,28 @@ Rest Api: Django rest framework <br/>
 Backend: Django <br/>
 Design: Bootstrap <br/>
 
+<h1>Features</h1>
+
+- Minimal full-stack application <br/>
+- Easy to personalized <br/>
+- Almost ready to deploy blog application! <br/>
+- Add article and see contact from django admin interface <br/>
+- Receive Contact <br/>
+- Dynamically add articles <br/>
+- React monopage with React router <br/>
+- Docker Container <br/>
+- Frontend/Api/backend divided and easier to maintain! <br/>
+
+<h1>Endpoint</h1>
+
+```
+Article: http://127.0.0.1:8000/api/article
+```
+
+```
+Contact: http://127.0.0.1:8000/api/contact
+```
+
 <h1>Installation</h1>
 
 <h3>Mac</h3>
