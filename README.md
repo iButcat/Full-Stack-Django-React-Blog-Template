@@ -86,7 +86,7 @@ python3 manage.py runserver
 
 Follow the instruction provided in the frontend folder
 
-<h1>General Design</h1>
+<h1>Credits</h1>
 
 The design is not from me. I simply implemented the template bellow with React and Django.
 <a href="https://github.com/StartBootstrap/startbootstrap-clean-blog">Template used</a>
