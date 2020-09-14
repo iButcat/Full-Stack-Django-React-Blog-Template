@@ -1,10 +1,14 @@
 # Full-Stack-Django-React-Blog-Template
 
+<h1>App Diagram</h1>
+
+![Diagram](https://github.com/iButcat/Full-Stack-Django-React-Blog-Template/blob/master/blog-app.drawio)
+
 <h1>Installation</h1>
 
 <h3>Mac</h3>
 
-Cd to blog_backend and setup an virtualenv:
+Change directory to blog_backend and setup a virtual environment:
 
 ```
 python3 -m venv venv 
@@ -35,4 +39,5 @@ Finally you should be able to start your server by running:
 ```
 python3 manage.py runserver
 ```
+
 
