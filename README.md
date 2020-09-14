@@ -6,10 +6,10 @@
 
 <h1>Tech/framework used</h1>
 
-Frontend => Javascript and React
-Rest Api => Django rest framework
-Backend => Django
-Design => Bootstrap
+Frontend: Javascript and React <br/>
+Rest Api: Django rest framework <br/>
+Backend: Django <br/>
+Design: Bootstrap <br/>
 
 <h1>Installation</h1>
 
