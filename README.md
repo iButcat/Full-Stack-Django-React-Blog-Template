@@ -35,15 +35,6 @@ Article: http://127.0.0.1:8000/api/article
 Contact: http://127.0.0.1:8000/api/contact
 ```
 
-<h1>Application port</h1>
-
-```
-Django is running on http://127.0.0.1:8000
-```
-```
-React is running on http://127.0.0.1:3000
-```
-
 <h1>Installation</h1>
 
 <h3>Mac</h3>
@@ -81,6 +72,25 @@ Finally you should be able to start your server by running:
 ```
 python3 manage.py runserver
 ```
+
+the backend is now running on http://127.0.0.1:8000 ! 
+
+<h1>Using Docker</h1>
+
+    docker-compose build
+    docker-compose up
+    There should now be two servers running:
+
+    http://127.0.0.1:8000 is the Django app
+    http://127.0.0.1:3000 is the React app
+  
+<h1>Using docker-compose run to issue one-off commands</h1>
+
+If you want to run a one-off command, like installing dependencies, you can use the docker-compose run <service_name> <cmd>.
+
+For example, to install a Javascript dependency and save that information to package.json we could run: docker-compose run --rm frontend yarn install --save axios
+
+If you want to be on a shell for one of the Docker services, you can do something like: docker-compose run --rm frontend bash
 
 <h3>Frontend</h3>
 
