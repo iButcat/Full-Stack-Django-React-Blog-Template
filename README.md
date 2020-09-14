@@ -1,5 +1,7 @@
 # Full-Stack-Django-React-Blog-Template
 
+<h5>Please, leave a ⭐ if you are using this project!</h5>
+
 <h1>App Diagram</h1>
 
 ![Diagram](https://github.com/iButcat/Full-Stack-Django-React-Blog-Template/blob/master/blog-app.png)
@@ -31,6 +33,15 @@ Article: http://127.0.0.1:8000/api/article
 
 ```
 Contact: http://127.0.0.1:8000/api/contact
+```
+
+<h1>Application port</h1>
+
+```
+Django is running on http://127.0.0.1:8000
+```
+```
+React is running on http://127.0.0.1:3000
 ```
 
 <h1>Installation</h1>
