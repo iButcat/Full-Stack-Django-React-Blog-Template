@@ -88,8 +88,8 @@ Follow the instruction provided in the frontend folder
 
 <h1>Credits</h1>
 
-The design is not from me. I simply implemented the template bellow with React and Django.
-<a href="https://github.com/StartBootstrap/startbootstrap-clean-blog">Template used</a>
+The design is not from me. I simply implemented this <a href="https://github.com/StartBootstrap/startbootstrap-clean-blog">Template</a> with React and Django.
+
  
 
 
