@@ -1,7 +1,5 @@
 # Full-Stack-Django-React-Blog-Template
 
-<h5>Please, leave a ⭐ if you are using this project!</h5>
-
 <h1>App Diagram</h1>
 
 ![Diagram](https://github.com/iButcat/Full-Stack-Django-React-Blog-Template/blob/master/blog-app.png)
